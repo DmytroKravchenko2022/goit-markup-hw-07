@@ -64,7 +64,7 @@ img {
     margin-right: 93px;
 }
 /*navi*/
-.link-nav {
+.link__nav {
     position: relative;
     transition: color;
     transition-duration: 250ms;
@@ -77,7 +77,7 @@ img {
     color: var(--txtcolor-primary);
 }
 
-.link-nav--current::after {
+.link__nav--current::after {
     position: absolute;
     top: 46px;
     display: block;
@@ -86,16 +86,15 @@ img {
     border-radius: 2px;
     background-color: #2196F3;
     background-color: currentColor;
-    content: '';
+    content: icon;
 }
-
-.link-nav:hover,
-.link-nav:focus,
-.link-nav--current {
+.link__nav:hover,
+.link__nav:focus,
+.link__nav--current {
     color: var(--color-brand);
 }
 /*contact*/
-.link-contact {
+.contact__link {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -110,18 +109,18 @@ img {
 }
 
 /*header allignment*/
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-nav {
+.header__nav {
     display: flex;
     align-items: center;
 }
 
-.site-nav {
+.menu__nav {
     display: flex;
     gap: 50px;
     margin-top: 32px;
@@ -133,20 +132,20 @@ img {
     gap: 50px;
 }
 
-.contact-list {
+.contact__list {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     gap: 10px;
 }
 
-.contact-icon {
+.contact__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.link-contact:hover,
-.link-contact:focus {
+.contact__link:hover,
+.contact__link:focus {
     color: var(--color-brand);
 }
 
