@@ -5,7 +5,7 @@
     --txtcolor-primary: #212121;
     --txtcolor-secondary: #757575;
     --gradient: rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4);
+        rgba(47, 48, 58, 0.4);
 }
 
 /*body*/
@@ -13,7 +13,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -38,166 +44,8 @@ img {
     padding: 0 15px;
 }
 
-/*header*/
-.header {
-    border-bottom: 1px solid #ECECEC;
-    background-color: #FFFFFF;
-}
-
-/*logo*/
-.web-logo {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-brand);
-}
-
-.studiologo-header {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-    margin-right: 93px;
-}
-/*navi*/
-.link__nav {
-    position: relative;
-    transition: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--txtcolor-primary);
-}
-
-.link__nav--current::after {
-    position: absolute;
-    top: 46px;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #2196F3;
-    background-color: currentColor;
-    content: icon;
-}
-.link__nav:hover,
-.link__nav:focus,
-.link__nav--current {
-    color: var(--color-brand);
-}
-/*contact*/
-.contact__link {
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--txtcolor-secondary)
-}
-
-/*header allignment*/
-.header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header__nav {
-    display: flex;
-    align-items: center;
-}
-
-.menu__nav {
-    display: flex;
-    gap: 50px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.contact {
-    display: flex;
-    gap: 50px;
-}
-
-.contact__list {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 10px;
-}
-
-.contact__icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-.contact__link:hover,
-.contact__link:focus {
-    color: var(--color-brand);
-}
-
 /*main*/
 /*title section*/
-.hero {
-    max-width: 1600px;
-    justify-content: center;
-    background-color: var(--color-primary);
-    text-align: center;
-    padding: 200px 0;
-    margin: 0 auto;
-    background-image: linear-gradient(
-        var(--gradient)),
-        url(../images/titleOverlay.jpeg);
-}
-
-.main-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #FFFFFF;
-    max-width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btn-requestservice {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: var(--color-brand);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.86;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    padding: 10px 32px 10px 32px;
-    margin-top: 30px;
-}
-
-.btn-requestservice:hover,
-.btn-requestservice:focus {
-    background-color: #188CE8;
-}
 
 /*section under title*/
 /*list of benefits*/
@@ -210,7 +58,7 @@ img {
     margin-top: 30px;
 }
 
-.benefits-description {
+.benefits__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -219,17 +67,17 @@ img {
     margin-bottom: 0px;
 }
 
-.listof-benefits {
+.benefits__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.listof-benefits .list {
+.benefits__list .list {
     width: 270px;
 }
 
-.design-boxes {
+.design__boxes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +86,7 @@ img {
     border-radius: 4px;
 }
 
-.benefits-icon {
+.benefits__icon {
     width: 70px;
     height: 70px;
 }
@@ -261,6 +109,7 @@ img {
     gap: 30px;
     margin-top: 50px;
 }
+
 .description-list {
     position: relative;
 }
@@ -866,4 +715,3 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
-
