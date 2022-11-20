@@ -25,7 +25,7 @@
 }
 
 /*navi*/
-.link__nav {
+.link-nav {
     position: relative;
     transition: color;
     transition-duration: 250ms;
@@ -38,7 +38,7 @@
     color: var(--txtcolor-primary);
 }
 
-.link__nav--current::after {
+.link-nav--current::after {
     position: absolute;
     top: 46px;
     display: block;
@@ -47,17 +47,17 @@
     border-radius: 2px;
     background-color: #2196F3;
     background-color: currentColor;
-    content: icon;
+    content: '';
 }
 
-.link__nav:hover,
-.link__nav:focus,
-.link__nav--current {
+.link-nav:hover,
+.link-nav:focus,
+.link-nav--current {
     color: var(--color-brand);
 }
 
 /*contact*/
-.contact__link {
+.link-contact {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,18 +72,18 @@
 }
 
 /*header allignment*/
-.header__container {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header__nav {
+.header-nav {
     display: flex;
     align-items: center;
 }
 
-.menu__nav {
+.site-nav {
     display: flex;
     gap: 50px;
     margin-top: 32px;
@@ -95,19 +95,19 @@
     gap: 50px;
 }
 
-.contact__list {
+.contact-list {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     gap: 10px;
 }
 
-.contact__icon {
+.contact-icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.contact__link:hover,
-.contact__link:focus {
+.link-contact:hover,
+.link-contact:focus {
     color: var(--color-brand);
 }
