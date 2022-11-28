@@ -3,7 +3,7 @@
     padding: 60px 0;
 }
 
-.studiologo-footer {
+.studiologo__footer {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -12,12 +12,12 @@
     color: #FFFFFF;
 }
 
-.footer-adress {
+.footer__adress {
     font-style: normal;
     margin-top: 20px;
 }
 
-.adress-line {
+.adress__line {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -25,11 +25,11 @@
     margin-bottom: 9px;
 }
 
-.contact-footer-list:not(:last-child) {
+.contact__footer-list:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.link-contact-footer {
+.link-contact__footer {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
@@ -47,13 +47,13 @@
     align-items: center;
 }
 
-.social-list-footer {
+.social-list__footer {
     display: flex;
     margin-top: 20px;
     gap: 10px;
 }
 
-.social-link-footer {
+.social-link__footer {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -67,22 +67,16 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-icon-footer {
+.social-icon__footer {
     fill: currentColor;
 }
 
-.social-item-footer {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.social-link-footer:hover,
-.social-item-footer:focus {
+.social-link__footer:hover,
+.social-link__footer:focus {
     background-color: var(--color-brand);
 }
 
-.logo-address-social {
+.logo__address-social {
     display: flex;
     align-items: baseline;
 }
@@ -91,17 +85,17 @@
     margin-left: 70px;
 }
 
-.sign-up {
+.sign__up {
     margin-left: 93px;
 }
 
-.sign-up-form {
+.sign__up-form {
     position: relative;
     display: flex;
     gap: 12px;
 }
 
-.sign-up-title {
+.sign__up-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -112,7 +106,7 @@
     align-items: center;
 }
 
-.email-input {
+.email__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -127,7 +121,7 @@
     padding-right: 16px;
 }
 
-.btn-sign-up {
+.btn__sign-up {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +142,6 @@
     padding: 10px 28px;
 }
 
-.send-icon {
+.send__icon {
     fill: #F5F4FA;
 }

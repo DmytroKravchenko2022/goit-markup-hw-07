@@ -9,7 +9,7 @@
         url(../images/titleOverlay.jpeg);
 }
 
-.main-title {
+.main__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -22,7 +22,7 @@
     margin-right: auto;
 }
 
-.btn-requestservice {
+.btn__requestservice {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--color-brand);
@@ -40,7 +40,7 @@
     margin-top: 30px;
 }
 
-.btn-requestservice:hover,
-.btn-requestservice:focus {
+.btn__requestservice:hover,
+.btn__requestservice:focus {
     background-color: #188CE8;
 }
